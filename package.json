@@ -1,0 +1,24 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "This project is built by Vanilla Javascript and webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IjayAbby/Todo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IjayAbby/Todo-list/issues"
+  },
+  "homepage": "https://github.com/IjayAbby/Todo-list#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.7.0"
+  }
+}
