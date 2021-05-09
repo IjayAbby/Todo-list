@@ -19,9 +19,6 @@ This project is built by Vanilla Javascript and webpack.THe project requires lis
   - ``npm run build`` to run webpack that will intergrate all changes made
 - Open the app in your local host server while on the `todo-list` directory in index.html file.
 
-
-- [Live Version](https://quirky-poitras-33271d.netlify.app/)
-
 <!-- ### Run Tests -->
 
 ## Author
