@@ -1,4 +1,4 @@
-// import { searchTasks } from '@/searchbar';
+// import { searchTasks } from './searchbar';
 
 const listsContainer = document.querySelector('[data-lists]');
 const newListForm = document.querySelector('[data-new-list-form]');
@@ -182,16 +182,14 @@ function createTask() {
 }
 
 // delete a selected list
-deleteListButton.addEventListener('click', (e) => {
-  e.preventDefault();
-  const lists = lists.filter((list) => list.id !== selectedListId);
-  let selectedListId = null;
+deleteListButton.addEventListener('click', () => {
+  lists = lists.filter((list) => list.id !== selectedListId);
+  selectedListId = null;
   renderAndSave();
 });
 
 // clear all checked tasks
-clearCompleteTasksButton.addEventListener('click', (e) => {
-  e.preventDefault();
+clearCompleteTasksButton.addEventListener('click', () => {
   const selectedList = lists.find((list) => list.id === selectedListId);
   selectedList.tasks = selectedList.tasks.filter((task) => !task.complete);
   renderAndSave();
