@@ -21,6 +21,8 @@ This project is built by Vanilla Javascript and webpack.THe project requires lis
 
 <!-- ### Run Tests -->
 
+![Live Demo](https://optimistic-mclean-8a701e.netlify.app/)
+
 ## Author
 
 👤 **Ijay Abby**
